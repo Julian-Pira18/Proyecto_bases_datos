@@ -1,3 +1,7 @@
+-- DROP SCHEMA extension;
+CREATE SCHEMA extension;
+Use extension;
+
 CREATE TABLE equipo_trabajo (
 		id INT NOT NULL AUTO_INCREMENT,
         cargo VARCHAR(20),
@@ -21,21 +25,20 @@ CREATE TABLE integrante_equipo_trabajo (
 DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
 
+
 CREATE TABLE sede (
 		id INT NOT NULL AUTO_INCREMENT,
         nombre VARCHAR(60), 
         correo VARCHAR(60),
         numero VARCHAR(20),
         id_equipo_trabajo INT,
-        id_direccion INT,
         
         PRIMARY KEY(id),
-        FOREIGN KEY (id_equipo_trabajo) REFERENCES equipo_trabajo(id),
-        FOREIGN KEY (id_direccion) REFERENCES direccion(id)
-        
+        FOREIGN KEY (id_equipo_trabajo) REFERENCES equipo_trabajo(id)
 )
 DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
+
 
 CREATE TABLE direccion (
 		id INT NOT NULL AUTO_INCREMENT,
@@ -93,10 +96,6 @@ DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
 
 
-
-
-
-
 CREATE TABLE profesor(
     id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(60),
@@ -133,13 +132,33 @@ DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
 
 
+CREATE TABLE entidad(
+    id INT NOT NULL AUTO_INCREMENT,
+    tipo VARCHAR(60)
+)
+DEFAULT CHARSET = utf8mb4
+COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE  practicas_pasantia(
+    id INT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(60),
+    descripcion VARCHAR(60),
+    nombre_empresa VARCHAR(60),
+    PRIMARY KEY(id)
+)
+DEFAULT CHARSET = utf8mb4
+COLLATE=utf8mb4_unicode_ci;
 
 
 CREATE TABLE  estudiante(
     id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(60),
     correo VARCHAR(60),
-    PRIMARY KEY(id)
+    rol VARCHAR(60),
+    id_practica INT,
+    PRIMARY KEY(id),
+    FOREIGN KEY (id_practica) REFERENCES practicas_pasantia(id)
 )
 DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
@@ -297,4 +316,3 @@ CREATE TABLE cursar_estudiante_cursos(
 )
 DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
-

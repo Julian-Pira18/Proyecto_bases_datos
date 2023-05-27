@@ -33,7 +33,6 @@ UPDATE equipo_trabajo
 SET cargo = "Marketing" WHERE id = 2;
 
 -- Eliminación de datos
-SET FOREIGN_KEY_CHECKS=0;
 
 DELETE FROM estudiante WHERE correo = "Roberto@unal.edu.co";
 
