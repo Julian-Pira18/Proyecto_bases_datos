@@ -68,8 +68,6 @@ JOIN facultad ON decano.id = facultad.id_decano;
 SELECT * FROM facultad;
 SELECT * FROM decano;
 
-update facultad Set id_decano = 50 where id = 7;
-
 -- Servicios para la ciudadania-----
 CREATE VIEW Servicios_comunitat AS 
 SELECT servicio_detalle_ciudadania AS decano, facultad.nombre AS servicio_detalle_ciudadania 

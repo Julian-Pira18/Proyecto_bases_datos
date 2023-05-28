@@ -1,4 +1,4 @@
--- DROP SCHEMA extension;
+DROP SCHEMA extension;
 CREATE SCHEMA extension;
 Use extension;
 
@@ -26,7 +26,7 @@ DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
 
 
-CREATE TABLE sede (
+CREATE TABLE sede(
 		id INT NOT NULL AUTO_INCREMENT,
         nombre VARCHAR(60), 
         correo VARCHAR(60),
@@ -116,6 +116,7 @@ CREATE TABLE modalidad(
 DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
 
+
 CREATE TABLE  cursos_diplomados(
 		id INT NOT NULL AUTO_INCREMENT,
         nombre VARCHAR(60), 
@@ -134,7 +135,8 @@ COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE entidad(
     id INT NOT NULL AUTO_INCREMENT,
-    tipo VARCHAR(60)
+    tipo VARCHAR(60),
+    PRIMARY KEY(id)
 )
 DEFAULT CHARSET = utf8mb4
 COLLATE=utf8mb4_unicode_ci;
@@ -144,7 +146,8 @@ CREATE TABLE  practicas_pasantia(
     id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(60),
     descripcion VARCHAR(60),
-    nombre_empresa VARCHAR(60),
+    tipo_empresa INT,
+    FOREIGN KEY (tipo_empresa) REFERENCES entidad(id),
     PRIMARY KEY(id)
 )
 DEFAULT CHARSET = utf8mb4
@@ -156,7 +159,9 @@ CREATE TABLE  estudiante(
     nombre VARCHAR(60),
     correo VARCHAR(60),
     rol VARCHAR(60),
+    estado_practica BOOLEAN,
     id_practica INT,
+
     PRIMARY KEY(id),
     FOREIGN KEY (id_practica) REFERENCES practicas_pasantia(id)
 )
@@ -199,11 +204,9 @@ CREATE TABLE servicio_detalle_ciudadania (
 		id INT NOT NULL AUTO_INCREMENT,
         nombre VARCHAR(60), 
         descripcion TEXT,
-        fecha DATE,
         id_servicio_ciudadania INT,
 
         PRIMARY KEY(id),
-        CONSTRAINT servicio_detalle_ciudadania_FK
         FOREIGN KEY (id_servicio_ciudadania) REFERENCES servicio_ciudadania(id)
 )
 DEFAULT CHARSET = utf8mb4
@@ -229,7 +232,6 @@ CREATE TABLE servicio_detalle_estado (
 	    id INT NOT NULL AUTO_INCREMENT,
         nombre VARCHAR(60), 
         descripcion TEXT,
-        fecha DATE,
         id_servicio_estado INT,
 
         PRIMARY KEY(id),
@@ -247,7 +249,6 @@ CREATE TABLE servicio_empresa (
         id_profesor INT,
         PRIMARY KEY(id),
 
-        CONSTRAINT servicio_extension_ciudadania_FK
         FOREIGN KEY (id_servicio_extension) REFERENCES servicio_extension(id),
         FOREIGN KEY (id_facultad) REFERENCES facultad(id),
         FOREIGN KEY (id_profesor) REFERENCES profesor(id)
@@ -259,7 +260,6 @@ CREATE TABLE servicio_detalle_empresa (
 	id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(60), 
     descripcion TEXT,
-    fecha DATE,
     id_servicio_empresa INT,
 
     PRIMARY KEY(id),
