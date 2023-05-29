@@ -347,172 +347,60 @@ VALUES
 ("servicio_ciudadania@hotmail.com", "+57 32979599");
 
 
-INSERT INTO servicio_detalle_ciudadania(nombre, descripcion, fecha)
+INSERT INTO servicio_detalle_ciudadania(nombre, descripcion, id_servicio_ciudadania)
 VALUES
-("Inteligente Plástico Salchichas", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2009-05-23"),
-("Rústico Acero Bicicleta", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2082-05-03"),
-("Rústico Metal Silla", "The Football Is Good For Training And Recreational Purposes", "2012-01-09"),
-("Sorprendente Acero Sopa", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2080-09-25"),
-("Inteligente Acero Toallas", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2011-09-08"),
-("Sorprendente Granito Guantes", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2024-06-15"),
-("Rústico Ladrillo Silla", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2050-08-18"),
-("Ergonómico Metal Camiseta", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2048-03-27"),
-("Guapo Granito Guantes", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2002-10-27"),
-("Práctico Metal Gorro", "The Football Is Good For Training And Recreational Purposes", "2010-06-20"),
-("Guapo Madera Gorro", "The Football Is Good For Training And Recreational Purposes", "2001-03-05"),
-("Guapo Algodón Guantes", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2006-09-08"),
-("Ergonómico Granito Coche", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2072-06-06"),
-("Genérico Ladrillo Toallas", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2029-08-14"),
-("Increible Acero Pollo", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2066-05-08"),
-("Fantástico Acero Pantalones", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2067-12-20"),
-("Hecho a mano Plástico Salchichas", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2041-02-19"),
-("Rústico Hormigon Pollo", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2069-06-12"),
-("Artesanal Hormigon Salchichas", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2056-07-31"),
-("Sorprendente Algodón Camiseta", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2069-12-22"),
-("Increible Acero Teclado", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2094-08-08"),
-("Guapa Hormigon Bicicleta", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2078-03-09"),
-("Refinado Hormigon Zapatos", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2072-04-03"),
-("Sorprendente Madera Toallas", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2042-05-18"),
-("Artesanal Madera Toallas", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2026-06-08"),
-("Sorprendente Acero Gorro", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2073-11-10"),
-("Sorprendente Granito Gorro", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2084-01-16"),
-("Sorprendente Plástico Silla", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2005-06-20"),
-("Ergonómico Hormigon Silla", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2097-05-21"),
-("Sabroso Madera Raton", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2038-02-18"),
-("Guapo Plástico Salchichas", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2050-06-19"),
-("Sorprendente Granito Raton", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2017-08-06"),
-("Refinado Metal Guantes", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2006-03-04"),
-("Increible Algodón Pantalones", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2041-07-27"),
-("Práctico Metal Teclado", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2019-01-19"),
-("Práctico Hormigon Ordenador", "The Football Is Good For Training And Recreational Purposes", "2021-11-05"),
-("Sabroso Hormigon Teclado", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2028-11-09"),
-("Refinado Acero Pescado", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2059-10-17"),
-("Ergonómico Hormigon Gorro", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2022-09-19"),
-("Guapo Ladrillo Salchichas", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2060-09-26"),
-("Genérico Algodón Teclado", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2074-11-24"),
-("Increible Plástico Zapatos", "The Football Is Good For Training And Recreational Purposes", "2088-11-20"),
-("Inteligente Plástico Ensalada", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2023-02-23"),
-("Inteligente Hormigon Ordenador", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2040-05-16"),
-("Sabroso Metal Guantes", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2014-10-19"),
-("Rústico Granito Ensalada", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2006-08-15"),
-("Rústico Plástico Queso", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2070-08-27"),
-("Rústico Ladrillo Coche", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2095-04-15"),
-("Pequeño Ladrillo Salchichas", "The Football Is Good For Training And Recreational Purposes", "2021-10-30"),
-("Pequeño Ladrillo Teclado", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2094-09-03");
+("Proyectos de creación artística"," Son aquellos cuyo fin es producir obras artísticas y literarias como libros, obras musicales, pinturas al óleo, a la acuarela o al pastel, dibujos, grabados en madera, obras caligráficas y coreográficas, obras producidas por medio de corte, grabado, damasquinado, etc., de metal, piedra, madera u otros materiales, estatuas, relieves, esculturas, fotografías artísticas, pantomimas u otras obras coreográficas, entre otros.", 1  )
+
+("Extensión solidaria", "Comprende los programas y proyectos científicos, tecnológicos, artísticos y culturales de alto impacto social que se desarrollan y financian total o parcialmente con recursos de la Universidad. Por medio de esta modalidad se integran los distintos campos del conocimiento y se estrechan vínculos con diversos sectores de la sociedad en busca de la inclusión social de comunidades vulnerables", 1)
+
+("Innovación social","A través de la Dirección Nacional de Extensión, Innovación y Propiedad Intelectual, la Universidad Nacional de Colombia apoya el desarrollo de iniciativas encaminados a facilitar un diálogo de saberes, entre el conocimiento propio de las comunidades y el sistemático generado en la academia, con el fin de que, de manera conjunta y colaborativa, se construyan soluciones a problemáticas sociales y se permita que ese conocimiento cobre sentido en cada acción cotidiana de los individuos y las comunidades del país.", 1)
+("Consultorio jurídico", "A través del Consultorio Jurídico de la Universidad Nacional de Colombia se busca que las personas de escasos recursos puedan tener una respuesta adecuada a sus problemas y una atención jurídica responsable, honesta y eficaz por parte de los estudiantes de la Facultad de Derecho, Ciencias Políticas y Sociales de la sede Bogotá.", 1),
+
+("salud y bienestar", "Servicio de salud y bienestar a la comunidad", 1)
+
 
 INSERT INTO servicio_estado(correo, telefono)
 VALUES
 ("servicio_estado@yahoo.com", "+57 36187742");
 
-INSERT INTO servicio_detalle_estado(nombre, descripcion, fecha)
+INSERT INTO servicio_detalle_estado(nombre, descripcion, id_servicio_estado)
 VALUES
-("Sabroso Acero Mesa", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "1991-09-07"),
-("Sabroso Acero Pescado", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2021-06-17"),
-("Pequeño Plástico Atún", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2023-06-29"),
-("Guapo Metal Sopa", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2086-05-31"),
-("Refinado Metal Silla", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "1996-12-04"),
-("Pequeño Plástico Ensalada", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2099-01-08"),
-("Sorprendente Algodón Sopa", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2076-12-03"),
-("Genérico Metal Pantalones", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2015-02-20"),
-("Inteligente Acero Zapatos", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2064-07-27"),
-("Fantástico Ladrillo Gorro", "The Football Is Good For Training And Recreational Purposes", "2015-05-25"),
-("Guapa Acero Ordenador", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2073-01-06"),
-("Sorprendente Hormigon Queso", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2054-07-28"),
-("Sabroso Algodón Pollo", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "1996-08-19"),
-("Pequeño Madera Zapatos", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2019-06-29"),
-("Inteligente Metal Gorro", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2087-05-06"),
-("Hecho a mano Plástico Bacon", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "1991-11-30"),
-("Ergonómico Madera Bicicleta", "The Football Is Good For Training And Recreational Purposes", "2069-12-21"),
-("Fantástico Madera Atún", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2035-10-22"),
-("Artesanal Ladrillo Teclado", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2053-08-19"),
-("Guapa Metal Mesa", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2062-03-23"),
-("Sorprendente Granito Bicicleta", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2013-08-12"),
-("Increible Granito Bacon", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2028-07-04"),
-("Guapo Plástico Pescado", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2064-12-20"),
-("Práctico Plástico Camiseta", "The Football Is Good For Training And Recreational Purposes", "2093-05-17"),
-("Hecho a mano Algodón Bacon", "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J", "2085-09-03"),
-("Increible Algodón Ordenador", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2008-03-21"),
-("Fantástico Hormigon Silla", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2050-06-22"),
-("Ergonómico Acero Mesa", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2072-05-27"),
-("Inteligente Granito Queso", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2007-02-09"),
-("Hecho a mano Algodón Queso", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2095-10-18"),
-("Sorprendente Algodón Sopa", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2032-11-26"),
-("Hecho a mano Madera Raton", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2008-04-24"),
-("Increible Metal Zapatos", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2022-06-07"),
-("Refinado Algodón Patatas fritas", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2009-01-05"),
-("Increible Plástico Pescado", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2065-02-07"),
-("Artesanal Metal Pollo", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2076-07-14"),
-("Rústico Madera Teclado", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "1990-01-13"),
-("Sabroso Madera Raton", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2073-05-19"),
-("Pequeño Ladrillo Patatas fritas", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "1996-10-23"),
-("Sorprendente Ladrillo Atún", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2092-10-25"),
-("Fantástico Acero Bacon", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2083-02-14"),
-("Increible Metal Salchichas", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2085-05-24"),
-("Refinado Ladrillo Sopa", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2059-05-13"),
-("Guapa Metal Ensalada", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2048-10-15"),
-("Rústico Ladrillo Raton", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2024-06-07"),
-("Guapo Algodón Raton", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2053-09-14"),
-("Rústico Madera Bicicleta", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2016-09-30"),
-("Pequeño Plástico Atún", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "1992-12-18"),
-("Sorprendente Acero Atún", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2016-09-25"),
-("Rústico Ladrillo Pelota", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2041-08-30");
+("Consultorías y Asesorías", "Son trabajos especializados que se realizan con el fin de entender y redefinir problemáticas existentes, al igual que encontrar y recomendar las soluciones más apropiadas en materia científica, técnica, tecnológica, política, económica, social, ambiental, artística y cultural.", 1),
+
+("Interventorías y Conceptos", "Son los servicios relacionados con la verificación técnica, administrativa y financiera del cumplimiento de las condiciones o términos de los contratos o convenciones pactadas para la ejecución de proyectos.", 1),
+
+("Evaluación de Programas y Políticas", "Son las actividades relacionadas con la evaluación, discusión y análisis de programas y políticas públicas.", 1),
+
+("Proyectos Especiales y Proyectos CTeI Sistema General de Regalías", "El equipo de trabajo brinda asesorías y capacitaciones en temas metodológicos, financieros y jurídicos, en la formulación y estructuración de proyectos para ser evaluados y aprobados por el Órgano Colegiado de Administración y Decisión (OCAD) del Fondo de Ciencia, Tecnología e Innovación (FCTeI) del Sistema General de Regalías (SGR)", 1),
+
+("Capacitaciones","Actividades correspondientes a la oferta de educación continua y permanente, para entidades públicas y privadas, con el fin de apoyar los planes institucionales de capacitación", 1),
+("Políticas y Pasantías", "Su finalidad es favorecer el desarrollo profesional, social y comunitario de los y las estudiantes de pregrado y posgrado, matriculados en la Universidad, mediante la aplicación de sus conocimientos y aprendizaje en la práctica.", 1),
+
+("Cooperación Internacional", "Comprende el conjunto de actividades de cooperación académica, científica, técnica, cultural y deportiva que adelante la Universidad en su carácter de institución pública, en el marco de estrategias nacionales de cooperación internacional, de programas internacionales oficiales de fomento a la cooperación en estos campos, o de compromisos adquiridos por el país en comisiones o acuerdos bilaterales o multilaterales de cooperación, en los que la participe la Universidad y que involucren el principio de reciprocidad.", 1);
 
 INSERT INTO servicio_empresa(correo, telefono)
 VALUES
 ("servicio_empresa@yahoo.com", "+57 45184342");
 
-INSERT INTO servicio_detalle_empresa(nombre, descripcion, fecha)
+INSERT INTO servicio_detalle_empresa(nombre, descripcion, id_servicio_empresa )
 VALUES
-("Inteligente Metal Guantes", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2016-09-05"),
-("Guapa Hormigon Pescado", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "1999-10-06"),
-("Fantástico Granito Gorro", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "1999-04-13"),
-("Guapa Granito Pollo", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2011-04-21"),
-("Hecho a mano Metal Salchichas", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2034-02-23"),
-("Pequeño Madera Queso", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2054-05-26"),
-("Inteligente Metal Salchichas", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2078-11-18"),
-("Sorprendente Acero Pantalones", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "1999-02-11"),
-("Inteligente Algodón Camiseta", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2092-05-29"),
-("Inteligente Acero Camiseta", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2074-04-08"),
-("Sabroso Hormigon Pizza", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "1996-09-26"),
-("Hecho a mano Acero Camiseta", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2052-06-07"),
-("Práctico Acero Zapatos", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2071-02-19"),
-("Fantástico Madera Pelota", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2004-09-30"),
-("Guapa Acero Mesa", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2067-09-18"),
-("Refinado Granito Pescado", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2077-05-25"),
-("Increible Granito Gorro", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2066-03-21"),
-("Artesanal Acero Mesa", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2083-11-01"),
-("Increible Plástico Pizza", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2099-10-17"),
-("Fantástico Ladrillo Pollo", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2004-09-27"),
-("Sorprendente Hormigon Mesa", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2051-01-01"),
-("Guapa Plástico Pescado", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2068-02-20"),
-("Refinado Metal Queso", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2086-06-01"),
-("Sorprendente Acero Patatas fritas", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2076-03-11"),
-("Sorprendente Ladrillo Guantes", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2007-04-26"),
-("Artesanal Plástico Toallas", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2007-07-14"),
-("Fantástico Acero Gorro", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2044-08-17"),
-("Artesanal Algodón Patatas fritas", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2009-04-08"),
-("Sorprendente Granito Ordenador", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2081-06-24"),
-("Refinado Granito Camiseta", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2036-08-25"),
-("Pequeño Metal Coche", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2012-02-24"),
-("Ergonómico Hormigon Patatas fritas", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2080-06-20"),
-("Inteligente Hormigon Queso", "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart", "2062-03-18"),
-("Genérico Madera Bicicleta", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2077-01-03"),
-("Pequeño Algodón Raton", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2056-03-23"),
-("Sorprendente Granito Raton", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2011-12-26"),
-("Genérico Granito Sopa", "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", "2018-08-20"),
-("Fantástico Algodón Raton", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2072-01-26"),
-("Genérico Granito Pollo", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2049-05-30"),
-("Artesanal Acero Zapatos", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2074-08-26"),
-("Pequeño Plástico Bicicleta", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "2013-11-01"),
-("Artesanal Madera Bicicleta", "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", "2078-12-30"),
-("Ergonómico Ladrillo Teclado", "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", "2072-01-04"),
-("Práctico Ladrillo Coche", "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals", "2084-08-25"),
-("Sorprendente Acero Pescado", "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", "1990-03-04"),
-("Rústico Ladrillo Raton", "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", "2065-06-26"),
-("Inteligente Hormigon Salchichas", "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", "2003-09-10"),
-("Sorprendente Ladrillo Pantalones", "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", "2055-11-11"),
-("Refinado Metal Camiseta", "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support", "2093-12-27"),
-("Guapa Madera Pescado", "The Football Is Good For Training And Recreational Purposes", "2035-08-02");
+("Consultorías y Asesorías","Son trabajos especializados que se realizan con el fin de entender y redefinir problemáticas existentes, encontrar y recomendar las soluciones más apropiadas en materia científica, técnica, tecnológica, política, económica, social, ambiental, artística y cultural." , 1 ),
+
+("Interventorías y Conceptos", "Son las diversas formas de participación de los docentes, en nombre de la Universidad, cuando en su calidad de expertos brindan opiniones calificadas de carácter puntual sobre temas o problemas científicos, técnicos, tecnológicos, políticos, económicos, sociales, ambientales, artísticos o culturales. Estas opiniones se pueden presentar en audiencias públicas, peritajes o testimonios.", 1),
+
+("Proyectos de innovación y gestión tecnológica","La modalidad gestión tecnológica e innovación comprende aquellos proyectos e iniciativas que se adelanten como resultado de las labores de docencia e investigación de la comunidad académica de la Universidad Nacional de Colombia cuya finalidad incluya la transferencia de nuevo conocimiento a los procesos productivos, sociales, culturales y políticos del país.Se consideran proyectos de innovación los que buscan desarrollar e implementar un mejoramiento o nuevo valor en el corto, mediano o largo plazo. A su vez, la implementación de la innovación se refiere a la introducción en el mercado o a la aplicación y el uso del desarrollo innovador con aceptación de la sociedad.", 1),
+
+("Prácticas y pasantías", "Su finalidad es favorecer el desarrollo profesional, social y comunitario de los estudiantes de pregrado y posgrado matriculados en la Universidad y fortalecer la relación con otros sectores, mediante la aplicación de sus conocimientos y el aprendizaje en la práctica.", 1),
+
+("Laboratorios","Servicios de laboratorios acreditados por el Organismo Nacional de Acreditación de Colombia ONAC o el Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM en la norma NTC-ISO/IEC 17025, ofrecidos para la realización de pruebas, ensayos o calibraciones de utilidad para la industria nacional o a la comunidad en general.", 1),
+
+("Capacitaciones","Actividades de formación continua a la medida, para entidades públicas, privadas, organizaciones y grupos representativos de usuarios, de acuerdo con sus necesidades o requerimientos, con el fin de apoyar los planes institucionales de capacitación.", 1),
+
+("Cooperacion internacional","Comprenden el conjunto de actividades de cooperación académica, científica, técnica, cultural y deportiva que adelante la Universidad, en su carácter de institución pública, en el marco de estrategias nacionales de cooperación internacional, de programas internacionales oficiales de fomento a la cooperación en estos campos, o de compromisos adquiridos por el país en comisiones o acuerdos bilaterales o multilaterales de cooperación, en las que la participe universidad y que involucren el principio de reciprocidad. Estas actividades contribuyen al intercambio y la transferencia de conocimientos, capacidades, experiencias y tecnologías entre países para su mutuo beneficio. Esta cooperación se debe manifestar en la resolución bilateral o multinacional de problemas compartidos.",1);
+
+
+
+
 
 INSERT INTO modalidad(tipo_modalidad)
 VALUES

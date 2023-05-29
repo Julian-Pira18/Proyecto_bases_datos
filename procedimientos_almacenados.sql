@@ -1,7 +1,7 @@
 -- Procedimiento para obtener información de un proyecto por su nombre:
 
 DELIMITER $$
-CREATE PROCEDURE ObtenerProyectoPorNombre (IN proyecto_nombre VARCHAR)
+CREATE PROCEDURE ObtenerProyectoPorNombre (IN proyecto_nombre VARCHAR(200))
 BEGIN
     SELECT * FROM proyecto
     WHERE nombre = proyecto_nombre;
@@ -11,7 +11,7 @@ DELIMITER ;
 
 -- Procedimiento para obtener todoss los proyectos asociados a una sede
 DELIMITER $$
-CREATE PROCEDURE ObtenerProyectoPorNombre (IN sede_nombre VARCHAR)
+CREATE PROCEDURE ObtenerProyectoPorNombre (IN sede_nombre VARCHAR(200))
 BEGIN
     SELECT * FROM proyecto 
     INNER JOIN sede ON sede.id = id_sede
@@ -71,10 +71,9 @@ BEGIN
 END $$
 DELIMITER ;
 
-
 -- Procedimiento para obtener curso por nombre
 DELIMITER $$
-CREATE PROCEDURE obtener_Curso_Nombre(IN nombre_curso VARCHAR)
+CREATE PROCEDURE obtener_Curso_Nombre(IN nombre_curso VARCHAR(200))
 BEGIN
     SELECT * from cursos_diplomados
     WHERE nombre_curso = cursos_diplomados.nombre;
