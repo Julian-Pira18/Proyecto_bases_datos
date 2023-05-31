@@ -57,7 +57,7 @@ SET FOREIGN_KEY_CHECKS=0;
 
 
 INSERT INTO integrante_equipo_trabajo 
-(nombre, correo, cargo) VALUES 
+(nombre, correo, cargo,id_equipo) VALUES 
 ("Miguel Ángel", "Marisol16@gmail.com", "Desarrollador", 19),
 ("Luis Miguel", "Gabriel11@hotmail.com", "Ingeniero", 24),
 ("Hugo", "MaraEugenia_Lovato56@hotmail.com", "Analista", 27),
@@ -164,16 +164,16 @@ INSERT INTO equipo_trabajo (
 ("Respuesta"); 
 
 
-INSERT INTO sede (nombre, correo, numero)
+INSERT INTO sede (nombre, correo, numero, id_equipo_trabajo)
 VALUES 
 ('palmira', 'palmira1@unal.edu.co', '1234567890', 10),
 ('paz', 'paz@unal.edu.co', '2345678901', 17),
 ('bogota', 'bogota@unal.edu.co', '3456789012', 42),
 ('medellin', 'medellin@unal.edu.co', '4567890123', 16);
 
-INSERT INTO proyecto (nombre, descripcion, fecha)
+INSERT INTO proyecto (nombre, descripcion, fecha, id_sede ,id_equipo_trabajo, id_direccion)
 VALUES 
-("Nacional Factores Productor", "Corporis a optio laboriosam non similique. Aut perferendis a reprehenderit temporibus officia quam quaerat nulla. Accusamus recusandae consequatur repudiandae facere velit occaecati itaque voluptate illum. Itaque harum adipisci veniam porro. Labore perspiciatis autem sit eveniet enim sed quo eveniet architecto.", "2022-11-20", "4", "23", "4"),
+("nacional factores productor", "Corporis a optio laboriosam non similique. Aut perferendis a reprehenderit temporibus officia quam quaerat nulla. Accusamus recusandae consequatur repudiandae facere velit occaecati itaque voluptate illum. Itaque harum adipisci veniam porro. Labore perspiciatis autem sit eveniet enim sed quo eveniet architecto.", "2022-11-20", "1", "23", "4"),
 ("Jefe Calidad Oficial", "Cumque sed reiciendis perspiciatis deleniti. Consequuntur suscipit ratione in fugit quo error magnam aut. Velit accusamus officia maiores.", "2022-09-03", "2", "27", "2"),
 ("Director Intranet Representante", "Ad nostrum neque. Quidem ratione ut quae provident earum iste a possimus maiores. Recusandae saepe nam.", "2022-08-31", "2", "48", "2"),
 ("Regional Soluciones Supervisor", "Cum eius illum eum tempora perferendis eveniet autem est. Recusandae nihil iusto deserunt dicta quod. Aliquam aliquid ea doloremque. Laudantium cupiditate consectetur sed. Aliquid rerum neque adipisci delectus quo non. Non odit facere nesciunt dignissimos sed neque voluptates.", "2023-04-26", "1", "3", "1"),
@@ -277,7 +277,7 @@ VALUES
 ("Enrique", "Marisol98@hotmail.com"),
 ("Bernardo", "Armando.Alcaraz48@hotmail.com");
 
-INSERT INTO profesor(nombre, correo)
+INSERT INTO profesor(nombre, correo,id_facultad)
 VALUES
 ("Alberto", "Leticia14@gmail.com", 3),
 ("María Luisa", "Salvador.Pagan6@gmail.com", 2),
@@ -330,7 +330,7 @@ VALUES
 ("Nicolás", "Ramiro.Velzquez84@yahoo.com", 8),
 ("Ángela", "Adriana.Ponce@gmail.com", 3);
 
-INSERT INTO facultad(nombre)
+INSERT INTO facultad(nombre,id_decano)
 VALUES
 ("Ingenieria", 10),
 ("Ciencias Humanas", 2),
@@ -349,14 +349,14 @@ VALUES
 
 INSERT INTO servicio_detalle_ciudadania(nombre, descripcion, id_servicio_ciudadania)
 VALUES
-("Proyectos de creación artística"," Son aquellos cuyo fin es producir obras artísticas y literarias como libros, obras musicales, pinturas al óleo, a la acuarela o al pastel, dibujos, grabados en madera, obras caligráficas y coreográficas, obras producidas por medio de corte, grabado, damasquinado, etc., de metal, piedra, madera u otros materiales, estatuas, relieves, esculturas, fotografías artísticas, pantomimas u otras obras coreográficas, entre otros.", 1  )
+("Proyectos de creación artística"," Son aquellos cuyo fin es producir obras artísticas y literarias como libros, obras musicales, pinturas al óleo, a la acuarela o al pastel, dibujos, grabados en madera, obras caligráficas y coreográficas, obras producidas por medio de corte, grabado, damasquinado, etc., de metal, piedra, madera u otros materiales, estatuas, relieves, esculturas, fotografías artísticas, pantomimas u otras obras coreográficas, entre otros.", 1  ),
 
-("Extensión solidaria", "Comprende los programas y proyectos científicos, tecnológicos, artísticos y culturales de alto impacto social que se desarrollan y financian total o parcialmente con recursos de la Universidad. Por medio de esta modalidad se integran los distintos campos del conocimiento y se estrechan vínculos con diversos sectores de la sociedad en busca de la inclusión social de comunidades vulnerables", 1)
+("Extensión solidaria", "Comprende los programas y proyectos científicos, tecnológicos, artísticos y culturales de alto impacto social que se desarrollan y financian total o parcialmente con recursos de la Universidad. Por medio de esta modalidad se integran los distintos campos del conocimiento y se estrechan vínculos con diversos sectores de la sociedad en busca de la inclusión social de comunidades vulnerables", 1),
 
-("Innovación social","A través de la Dirección Nacional de Extensión, Innovación y Propiedad Intelectual, la Universidad Nacional de Colombia apoya el desarrollo de iniciativas encaminados a facilitar un diálogo de saberes, entre el conocimiento propio de las comunidades y el sistemático generado en la academia, con el fin de que, de manera conjunta y colaborativa, se construyan soluciones a problemáticas sociales y se permita que ese conocimiento cobre sentido en cada acción cotidiana de los individuos y las comunidades del país.", 1)
+("Innovación social","A través de la Dirección Nacional de Extensión, Innovación y Propiedad Intelectual, la Universidad Nacional de Colombia apoya el desarrollo de iniciativas encaminados a facilitar un diálogo de saberes, entre el conocimiento propio de las comunidades y el sistemático generado en la academia, con el fin de que, de manera conjunta y colaborativa, se construyan soluciones a problemáticas sociales y se permita que ese conocimiento cobre sentido en cada acción cotidiana de los individuos y las comunidades del país.", 1),
 ("Consultorio jurídico", "A través del Consultorio Jurídico de la Universidad Nacional de Colombia se busca que las personas de escasos recursos puedan tener una respuesta adecuada a sus problemas y una atención jurídica responsable, honesta y eficaz por parte de los estudiantes de la Facultad de Derecho, Ciencias Políticas y Sociales de la sede Bogotá.", 1),
 
-("salud y bienestar", "Servicio de salud y bienestar a la comunidad", 1)
+("salud y bienestar", "Servicio de salud y bienestar a la comunidad", 1);
 
 
 INSERT INTO servicio_estado(correo, telefono)
@@ -1238,12 +1238,12 @@ INSERT INTO cursar_estudiante_servicio VALUES
 (64, 39, 2, 45);
 
 
-INSERT INTO entidad VALUES
-( "Empresa"),
-( "Gobierno");
+INSERT INTO entidad(tipo) VALUES
+("Empresa"),
+("Gobierno");
 
 
-INSERT INTO practicas_pasantia VALUE
+INSERT INTO practicas_pasantia (nombre,descripcion, tipo_empresa) VALUES
 ("Nacional Seguro Consultor", "Culpa laboriosam illum in quod. Explicabo voluptas quam sequi corrupti culpa adipisci distinctio recusandae modi. Dolorem perferendis possimus nam velit porro quod voluptates.", 2),
 ("Adelante Investigación Facilitador", "Sed recusandae facilis. Eum explicabo eos mollitia alias eaque totam occaecati. Officia reprehenderit fugiat iusto et doloremque. Vitae esse commodi eius tenetur rem totam dolor officiis. Ea atque cum veniam.", 2),
 ("Producto Aplicaciones Representante", "Quam a dicta vitae exercitationem culpa voluptas eos explicabo neque. Doloribus fugiat fugiat temporibus voluptatum saepe id quasi recusandae. Commodi porro nulla. Culpa quos earum accusamus repellendus iusto dolor ducimus. Et quis architecto alias.", 2),

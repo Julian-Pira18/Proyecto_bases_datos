@@ -14,7 +14,7 @@ CREATE UNIQUE INDEX servicio_detalle_estado_index ON servicio_detalle_estado(nom
 CREATE INDEX estudiante_index ON estudiante(nombre, correo, rol);
 
 -- Se realiza el indice para que los usuarios con el rol de ciudadania y que ademas sean estudiantes de la universidad tengan acceso a la informacion de las practicas y pasantias que se esten brindando a mayor velocidad.
-CREATE UNIQUE INDEX practicas_pasantia_index ON practicas_pasantia(nombre, descripcion);
+CREATE UNIQUE INDEX practicas_pasantia_index ON practicas_pasantia(nombre);
 
 -- Se realiza el indice para que los usuarios con el rol de administrador puedan acceder eficazmente a los datos de los profesores.
 CREATE INDEX profesor_index ON profesor(nombre, correo) USING HASH;
@@ -23,7 +23,7 @@ CREATE INDEX profesor_index ON profesor(nombre, correo) USING HASH;
 CREATE INDEX decano_index ON decano(nombre, correo) USING HASH;
 
 -- Se realiza el indice para que los usuarios con el rol de administrador puedan acceder eficazmente a los datos de los proyectos que se esten ejecutano o planeando.
-CREATE INDEX proyecto_index ON proyecto(nombre, sede) USING HASH;
+CREATE INDEX proyecto_index ON proyecto(nombre) USING HASH;
 
 -- Se realiza el indice para que los usuarios con el rol de administrador puedan acceder eficazmente a los datos de los integrantes pertenecientes a un equipo de trabajo.
 CREATE INDEX integrante_equipo_trabajo_index ON integrante_equipo_trabajo(correo, cargo) USING HASH;

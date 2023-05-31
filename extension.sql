@@ -35,9 +35,7 @@ CREATE TABLE sede(
         
         PRIMARY KEY(id),
         FOREIGN KEY (id_equipo_trabajo) REFERENCES equipo_trabajo(id)
-)
-DEFAULT CHARSET = utf8mb4
-COLLATE=utf8mb4_unicode_ci;
+);
 
 
 CREATE TABLE direccion (
@@ -68,9 +66,8 @@ CREATE TABLE proyecto (
         FOREIGN KEY (id_sede) REFERENCES sede(id),
         FOREIGN KEY (id_equipo_trabajo) REFERENCES equipo_trabajo(id),
         FOREIGN KEY (id_direccion) REFERENCES direccion(id) 
-)
-DEFAULT CHARSET = utf8mb4
-COLLATE=utf8mb4_unicode_ci;
+);
+
 
 CREATE TABLE  decano (
 		id INT NOT NULL AUTO_INCREMENT,
@@ -128,9 +125,7 @@ CREATE TABLE  cursos_diplomados(
         PRIMARY KEY(id),
         FOREIGN KEY (id_profesor) REFERENCES profesor(id),
         FOREIGN KEY (id_modalidad) REFERENCES modalidad(id) 
-)
-DEFAULT CHARSET = utf8mb4
-COLLATE=utf8mb4_unicode_ci;
+);
 
 
 CREATE TABLE entidad(
@@ -145,7 +140,7 @@ COLLATE=utf8mb4_unicode_ci;
 CREATE TABLE  practicas_pasantia(
     id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(60),
-    descripcion VARCHAR(60),
+    descripcion TEXT,
     tipo_empresa INT,
     FOREIGN KEY (tipo_empresa) REFERENCES entidad(id),
     PRIMARY KEY(id)
@@ -230,7 +225,7 @@ COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE servicio_detalle_estado (
 	    id INT NOT NULL AUTO_INCREMENT,
-        nombre VARCHAR(60), 
+        nombre VARCHAR(200), 
         descripcion TEXT,
         id_servicio_estado INT,
 
