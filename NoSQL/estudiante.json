@@ -1,0 +1,104 @@
+
+//sede 
+
+[
+    {"nombre":'palmira',"correo":"palmira1@unal.edu.co","numero": "1234567890", "id_equipo_qtrabajo":10},
+    {"nombre":"paz","correo": "paz@unal.edu.co","numero": "2345678901", "id_equipo_qtrabajo":17},
+    {"nombre":"bogota","correo": "bogota@unal.edu.co","numero": "3456789012","id_equipo_qtrabajo":42},
+    {"nombre":"medellin", "correo":"medellin@unal.edu.co","numero": "4567890123","id_equipo_qtrabajo":1}
+]
+
+
+//estudainte
+[
+    {"nombre":"Armando",   "correo":"MaraElena_Castillo34@yahoo.com"},
+    {"nombre":"Blanca",    "correo":"Gilberto.Rocha@hotmail.com"},
+    {"nombre":"Alejandra", "correo":"Micaela_Moreno89@yahoo.com"},
+    {"nombre":"Roberto",   "correo":"Julia.Oquendo39@hotmail.com"},
+    {"nombre":"Ana María", "correo":"Ana.Pedraza@hotmail.com"},
+    {"nombre":"Beatriz",   "correo":"Gabriela_Murillo@yahoo.com"},
+    {"nombre":"Esperanza", "correo": "JosMara69@yahoo.com"},
+    {"nombre":"Mayte",     "correo": "Gloria_Quesada@yahoo.com"},
+    {"nombre":"Santiago",  "correo": "Gabriel48@yahoo.com"},
+    {"nombre":"María Elena","correo": "Alicia_Ruelas@yahoo.com"},
+    {"nombre":"Antonio",   "correo": "Cristbal35@hotmail.com"}
+]
+
+//profesor
+
+[
+{"nombre":"Alberto", "correo":"Leticia14@gmail.com", "id_faculta":"3"},
+{"nombre":"María Luisa", "correo":"Salvador.Pagan6@gmail.com", "id_facultad":"2"},
+{"nombre":"Claudia","correo": "Octavio30@hotmail.com", "id_facultad":"6"},
+{"nombre":"Javier","correo": "MaradelCarmen22@yahoo.com", "id_facultad":"5"},
+{"nombre":"Guillermina","correo": "Eva.Carrasquillo93@hotmail.com", },
+{"nombre":"Cecilia", "correo":"Octavio_Ojeda47@gmail.com", "id_facultad":"4"},
+{"nombre":"Florencia", "correo":"Elisa_Briones@yahoo.com", "id_facultad":"7"},
+{"nombre":"Isabela", "correo":"Teresa_Villa50@hotmail.com", "id_facultad":"8"},
+{"nombre":"Margarita","correo": "Rodrigo78@hotmail.com", "id_facultad":"2"},
+{"nombre":"Federico", "correo":"Natalia_Blanco14@yahoo.com", "id_facultad":"5"},
+{"nombre":"María Cristina","correo": "Dbora16@hotmail.com", "id_facultad":"4"},
+{"nombre":"Carmen","correo": "Jos_Alonzo59@gmail.com", "id_facultad":"4"},
+{"nombre":"Lorenzo", "correo":"Adn_Lovato75@gmail.com", "id_facultad":"8"},
+{"nombre":"María del Carmen", "correo":"Adela_Montz77@yahoo.com", "id_facultad":"8"},
+{"nombre":"Julia", "correo":"Adn_Carrin@gmail.com", "id_facultad":"5"},
+{"nombre":"Teresa", "correo":"Margarita.Alva@hotmail.com", "id_facultad":"72"},
+{"nombre":"Olivia","correo": "Manuela.Esquivel71@yahoo.com", "id_facultad":"2"},
+{"nombre":"Marcela", "correo":"Beatriz87@gmail.com", "id_facultad":"8"},
+{"nombre":"Ernesto", "correo":"Eduardo57@hotmail.com", "id_facultad":"8"},
+{"nombre":"Marcos", "correo":"Guillermina.Hinojosa@gmail.com", "id_facultad":"3"},
+{"nombre":"Ana", "correo":"Martn.Cerda81@hotmail.com", "id_facultad":"6"},
+{"nombre":"Gonzalo","correo": "Yolanda.Guardado5@gmail.com", "id_facultad":"2"},
+{"nombre":"Gilberto","correo": "Ramn5@gmail.com", "id_facultad":"6"},
+{"nombre":"Rosalia","correo": "Enrique_Polanco@hotmail.com", "id_facultad":"2"},
+{"nombre":"Gustavo","correo": "Fernando.Matas@gmail.com", "id_facultad":"2"},
+{"nombre":"Salvador", "correo":"Felipe_Valverde@gmail.com", "id_facultad":"3"},
+{"nombre":"Caridad","correo": "Lola.Olvera@yahoo.com", "id_facultad":"5"},
+{"nombre":"Ester","correo": "Luis.Samaniego92@gmail.com", "id_facultad":"2"},
+{"nombre":"Lola", "correo":"Leonor_Rodrguez63@yahoo.com", "id_facultad":"1"},
+{"nombre":"José Eduardo", "correo":"Fernando.Abrego@gmail.com", "id_facultad":"8"},
+{"nombre":"Blanca", "correo":"Josefina.Carrasquillo59@hotmail.com","id_facultad":"0",},
+{"nombre":"Elena", "correo":"Raquel39@gmail.com", "id_facultad":"3"},
+{"nombre":"Caridad","correo": "Guadalupe66@hotmail.com", "id_facultad":"7"},
+{"nombre":"José María", "correo":"Beatriz19@hotmail.com", "id_facultad":"4"},
+{"nombre":"Gerardo", "correo":"Florencia57@gmail.com", "id_facultad":"6"}
+]
+
+
+// PROYECTO 
+[
+{"nombre":"nacional factores productor","descripcion": "Corporis a optio laboriosam non similique. Aut perferendis a reprehenderit temporibus officiaquam quaerat nulla. Accusamus recusandae consequatur repudiandae facere velit occaecati itaque voluptate illum. Itaque harumadipisci veniam porro. Labore perspiciatis autem sit eveniet enim sed quo eveniet architecto.", "fecha": "2022-11-20", "id_sede":"1", "id_equipo_trabajo":"23", "id_direccion":"4"},
+{"nombre":"Jefe Calidad Oficial", "descripcion":"Cumque sed reiciendis perspiciatis deleniti. Consequuntur suscipit ratione in fugit quo error magnam aut. Velit accusamus officia maiores.","fecha": "2022-09-03", "id_sede":"2", "id_equipo_trabajo":"27","id_direccion": "2"},
+{"nombre":"Director Intranet Representante","descripcion": "Ad nostrum neque. Quidem ratione ut quae provident earum iste a possimus maiores. Recusandae saepe nam.", "fecha":"2022-08-31","id_sede": "2","id_equipo_trabajo": "48","id_direccion": "2"},
+{"nombre":"Regional Soluciones Supervisor","descripcion": "Cum eius illum eum tempora perferendis eveniet autem est. Recusandae nihil iusto deserunt dicta quod. Aliquam aliquid ea doloremque. Laudantium cupiditate consectetur sed. Aliquid rerum neque adipisci delectus quo non. Non odit facere nesciunt dignissimos sed neque voluptates.", "fecha":"2023-04-26", "id_sede":"1","id_equipo_trabajo": "3", "id_direccion":"1"},
+{"nombre":"Futuro Calidad Especialista", "descripcion":"Dolorem commodi pariatur iure sapiente ullam incidunt. Voluptatum facilis ea iure earum quod nobis nihil repudiandae quaerat. Animi amet voluptate unde aliquam quod.","fecha": "2023-05-27", "id_sede":"3", "id_equipo_trabajo":"24","id_direccion": "3"},
+{"nombre":"Humano Marketing Asociado","descripcion": "Optio repellendus cumque. Cumque ullam deserunt aut reiciendis nobis explicabo molestiae omnis. Odit aut rerum.", "fecha":"2022-11-19", "id_sede":"4", "id_equipo_trabajo":"25","id_direccion": "4"},
+{"nombre":"Senior Programa Director", "descripcion":"Nemo perspiciatis cupiditate perferendis odio nihil rem autem harum. Voluptatibus corrupti sunt. Eum explicabo numquam placeat tempore sit aspernatur. Officia maxime neque quia architecto tempora. Placeat debitis minus fuga commodi expedita.","fecha": "2023-01-01", "id_sede":"1","id_equipo_trabajo": "33", "id_direccion":"1"},
+{"nombre":"Distrito Web Supervisor", "descripcion": "Repellendus aliquam eveniet fugit pariatur maxime. Nulla modi asperiores porro ipsum eligendi. Provident minima architecto quidem inventore. Itaque non quis natus esse. Sit laborum consequuntur eos exercitationem pariatur aspernatur ad. Occaecati consectetur possimus neque alias voluptatem debitis nulla ipsam cupiditate.","fecha": "2022-06-17","id_sede": "1", "id_equipo_trabajo":"18", "id_direccion":"1"},
+{"nombre":"Dinánmico Integración Asociado","descripcion": "Velit earum at nisi in consequatur occaecati itaque quo nesciunt. Nemo vero explicabo inventore ea consequatur corporis expedita iusto porro. Nobis quod ipsum dolor numquam quis repudiandae. Voluptatum suscipit autem quos ipsum.", "fecha":"2022-07-07", "id_sede":"2","id_equipo_trabajo": "2", "id_direccion":"2"},
+{"nombre":"Adelante Factores Arquitecto","descripcion": "Quibusdam exercitationem iure quam deserunt similique. Aliquam reiciendis quaerat asperiores eaque illum ut. Reiciendis magni tempore exercitationem soluta nihil iste. Cum culpa reprehenderit vel veniam adipisci aliquam. Ullam error ex libero. Nisi eveniet dolores expedita explicabo ad vero velit nisi magni.", "fecha":"2023-03-20", "id_sede":"1", "id_equipo_trabajo":"15","id_direccion":"1"},
+]
+
+// cursos _diplomados
+[
+{"nombre":"Rústico Madera Pizza","duracion": "18:5858", "fecha":"2050-05-11", "id_profesor":"11", "id_modalidad":"2"},
+{"nombre":"Ergonómico Hormigon Zapatos","duracion": "28:3030", "fecha":"2088-02-08", "id_profesor":"12", "id_modalidad":"1"},
+{"nombre":"Increible Metal Bicicleta","duracion": "05:5151","fecha": "1998-10-04","id_profesor": "19","id_modalidad": "2"},
+{"nombre":"Artesanal Madera Pescado", "duracion": "41:3535", "fecha":"2076-04-13", "id_profesor":"24", "id_modalidad":"2"},
+{"nombre":"Hecho a mano Plástico Pelota","duracion": "02:3434", "fecha":"2066-09-15","id_profesor":"27","id_modalidad": "1"},
+{"nombre":"Sabroso Plástico Coche", "duracion": "10:011", "fecha":"2059-10-28", "id_profesor":"0","id_modalidad": "1"},
+{"nombre":"Inteligente Metal Guantes","duracion": "40:3737", "fecha":"2006-11-28","id_profesor": "35", "id_modalidad":"1"},
+{"nombre":"Hecho a mano Metal Patatas fritas","duracion": "41:1010", "fecha":"2015-06-02", "id_profesor":"1","id_modalidad":"2"},
+{"nombre":"Increible Ladrillo Pantalones", "duracion":"46:1616", "fecha":"2022-09-07", "id_profesor":"22", "id_modalidad":"1"},
+{"nombre":"Sorprendente Algodón Bicicleta", "duracion":"25:3838", "fecha":"2017-10-03", "id_profesor":"47","id_modalidad": "2"},
+{"nombre":"Práctico Acero Pelota", "duracion":"42:5454", "fecha":"2075-11-25", "id_profesor":"3", "id_modalidad":"2"},
+{"nombre":"Genérico Plástico Raton", "duracion":"30:1919", "fecha":"2049-12-10", "id_profesor":"26", "id_modalidad":"2"},
+{"nombre":"Sabroso Madera Zapatos", "duracion":"06:5252", "fecha":"2084-07-18", "id_profesor":"18", "id_modalidad":"2"},
+{"nombre":"Inteligente Plástico Guantes", "duracion":"30:4848", "fecha":"2095-08-16","id_profesor": "19", "id_modalidad":"1"}
+]
+
+//
+
+
+
+

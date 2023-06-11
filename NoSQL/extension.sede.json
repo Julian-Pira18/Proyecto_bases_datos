@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "64855a8fbd04a272933cc5bc"
+  },
+  "nombre": "palmira",
+  "correo": "palmira1@unal.edu.co",
+  "numero": "1234567890",
+  "id_equipo_qtrabajo": 10
+},
+{
+  "_id": {
+    "$oid": "64855a8fbd04a272933cc5bd"
+  },
+  "nombre": "paz",
+  "correo": "paz@unal.edu.co",
+  "numero": "2345678901",
+  "id_equipo_qtrabajo": 17
+},
+{
+  "_id": {
+    "$oid": "64855a8fbd04a272933cc5be"
+  },
+  "nombre": "bogota",
+  "correo": "bogota@unal.edu.co",
+  "numero": "3456789012",
+  "id_equipo_qtrabajo": 42
+},
+{
+  "_id": {
+    "$oid": "64855a8fbd04a272933cc5bf"
+  },
+  "nombre": "medellin",
+  "correo": "medellin@unal.edu.co",
+  "numero": "4567890123",
+  "id_equipo_qtrabajo": 1
+}]

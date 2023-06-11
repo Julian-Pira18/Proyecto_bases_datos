@@ -1,0 +1,279 @@
+[{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e1"
+  },
+  "nombre": "Alberto",
+  "correo": "Leticia14@gmail.com",
+  "id_faculta": "3"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e2"
+  },
+  "nombre": "María Luisa",
+  "correo": "Salvador.Pagan6@gmail.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e3"
+  },
+  "nombre": "Claudia",
+  "correo": "Octavio30@hotmail.com",
+  "id_facultad": "6"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e4"
+  },
+  "nombre": "Javier",
+  "correo": "MaradelCarmen22@yahoo.com",
+  "id_facultad": "5"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e5"
+  },
+  "nombre": "Guillermina",
+  "correo": "Eva.Carrasquillo93@hotmail.com"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e6"
+  },
+  "nombre": "Cecilia",
+  "correo": "Octavio_Ojeda47@gmail.com",
+  "id_facultad": "4"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e7"
+  },
+  "nombre": "Florencia",
+  "correo": "Elisa_Briones@yahoo.com",
+  "id_facultad": "7"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e8"
+  },
+  "nombre": "Isabela",
+  "correo": "Teresa_Villa50@hotmail.com",
+  "id_facultad": "8"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5e9"
+  },
+  "nombre": "Margarita",
+  "correo": "Rodrigo78@hotmail.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5ea"
+  },
+  "nombre": "Federico",
+  "correo": "Natalia_Blanco14@yahoo.com",
+  "id_facultad": "5"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5eb"
+  },
+  "nombre": "María Cristina",
+  "correo": "Dbora16@hotmail.com",
+  "id_facultad": "4"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5ec"
+  },
+  "nombre": "Carmen",
+  "correo": "Jos_Alonzo59@gmail.com",
+  "id_facultad": "4"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5ed"
+  },
+  "nombre": "Lorenzo",
+  "correo": "Adn_Lovato75@gmail.com",
+  "id_facultad": "8"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5ee"
+  },
+  "nombre": "María del Carmen",
+  "correo": "Adela_Montz77@yahoo.com",
+  "id_facultad": "8"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5ef"
+  },
+  "nombre": "Julia",
+  "correo": "Adn_Carrin@gmail.com",
+  "id_facultad": "5"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f0"
+  },
+  "nombre": "Teresa",
+  "correo": "Margarita.Alva@hotmail.com",
+  "id_facultad": "72"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f1"
+  },
+  "nombre": "Olivia",
+  "correo": "Manuela.Esquivel71@yahoo.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f2"
+  },
+  "nombre": "Marcela",
+  "correo": "Beatriz87@gmail.com",
+  "id_facultad": "8"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f3"
+  },
+  "nombre": "Ernesto",
+  "correo": "Eduardo57@hotmail.com",
+  "id_facultad": "8"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f4"
+  },
+  "nombre": "Marcos",
+  "correo": "Guillermina.Hinojosa@gmail.com",
+  "id_facultad": "3"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f5"
+  },
+  "nombre": "Ana",
+  "correo": "Martn.Cerda81@hotmail.com",
+  "id_facultad": "6"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f6"
+  },
+  "nombre": "Gonzalo",
+  "correo": "Yolanda.Guardado5@gmail.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f7"
+  },
+  "nombre": "Gilberto",
+  "correo": "Ramn5@gmail.com",
+  "id_facultad": "6"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f8"
+  },
+  "nombre": "Rosalia",
+  "correo": "Enrique_Polanco@hotmail.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5f9"
+  },
+  "nombre": "Gustavo",
+  "correo": "Fernando.Matas@gmail.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5fa"
+  },
+  "nombre": "Salvador",
+  "correo": "Felipe_Valverde@gmail.com",
+  "id_facultad": "3"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5fb"
+  },
+  "nombre": "Caridad",
+  "correo": "Lola.Olvera@yahoo.com",
+  "id_facultad": "5"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5fc"
+  },
+  "nombre": "Ester",
+  "correo": "Luis.Samaniego92@gmail.com",
+  "id_facultad": "2"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5fd"
+  },
+  "nombre": "Lola",
+  "correo": "Leonor_Rodrguez63@yahoo.com",
+  "id_facultad": "1"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5fe"
+  },
+  "nombre": "José Eduardo",
+  "correo": "Fernando.Abrego@gmail.com",
+  "id_facultad": "8"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc5ff"
+  },
+  "nombre": "Blanca",
+  "correo": "Josefina.Carrasquillo59@hotmail.com",
+  "id_facultad": "0"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc600"
+  },
+  "nombre": "Elena",
+  "correo": "Raquel39@gmail.com",
+  "id_facultad": "3"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc601"
+  },
+  "nombre": "Caridad",
+  "correo": "Guadalupe66@hotmail.com",
+  "id_facultad": "7"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc602"
+  },
+  "nombre": "José María",
+  "correo": "Beatriz19@hotmail.com",
+  "id_facultad": "4"
+},
+{
+  "_id": {
+    "$oid": "64855de7bd04a272933cc603"
+  },
+  "nombre": "Gerardo",
+  "correo": "Florencia57@gmail.com",
+  "id_facultad": "6"
+}]

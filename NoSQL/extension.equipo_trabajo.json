@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "64853732bd04a272933cc5aa"
+  },
+  "cargo": "Calidad"
+},
+{
+  "_id": {
+    "$oid": "64853956bd04a272933cc5ab"
+  },
+  "cargo": "calidad"
+},
+{
+  "_id": {
+    "$oid": "64853956bd04a272933cc5ac"
+  },
+  "cargo": "mobilidad"
+},
+{
+  "_id": {
+    "$oid": "64853956bd04a272933cc5ad"
+  },
+  "cargo": "Soluciones"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5ae"
+  },
+  "cargo": "Identidad"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5af"
+  },
+  "cargo": "Mobilidad"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b0"
+  },
+  "cargo": "Calidad"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b1"
+  },
+  "cargo": "Comunicaciones"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b2"
+  },
+  "cargo": "Calidad"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b3"
+  },
+  "cargo": "Soluciones"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b4"
+  },
+  "cargo": "Intranet"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b5"
+  },
+  "cargo": "Usabilidad"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b6"
+  },
+  "cargo": "Integración"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b7"
+  },
+  "cargo": "Paradigma"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b8"
+  },
+  "cargo": "Datos"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5b9"
+  },
+  "cargo": "Marketing"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5ba"
+  },
+  "cargo": "Calidad"
+},
+{
+  "_id": {
+    "$oid": "64853b6bbd04a272933cc5bb"
+  },
+  "cargo": "Seguro"
+}]

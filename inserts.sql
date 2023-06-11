@@ -51,7 +51,7 @@ VALUES
 ("East", "Plaza Izazaga", "89705"),
 ("South", "Avenida Juárez", "50841");
 
-SET FOREIGN_KEY_CHECKS=0;
+-- SET FOREIGN_KEY_CHECKS=0;
 
 
 
