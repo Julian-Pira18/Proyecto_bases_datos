@@ -52,7 +52,6 @@ select * from cursos_diplomados;
 
 -- Cuando se elimine un curso actualizar las llvaes foraneas para que no quede relacion con el estudainte y el curso
 
-
 DELIMITER $$
 CREATE TRIGGER despues_eliminar_curso
 AFTER DELETE ON cursos_diplomados
@@ -152,6 +151,7 @@ BEGIN
     END IF;
 END $$
 DELIMITER ;
+
 
 
 -- Si el id de un servicio_detalle_estado esta vacio entocnes agregue automaticamente el 1

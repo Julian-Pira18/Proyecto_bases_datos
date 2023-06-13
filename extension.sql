@@ -2,6 +2,13 @@ DROP SCHEMA extension;
 CREATE SCHEMA extension;
 Use extension;
 
+
+SELECT * FROM estudiante;
+SELECT * FROM profesor;
+SELECT * FROM estudiante;
+
+
+
 CREATE TABLE equipo_trabajo (
 		id INT NOT NULL AUTO_INCREMENT,
         cargo VARCHAR(20),
